@@ -1,0 +1,197 @@
+@media only screen and (max-width: 1050px) {
+
+    /* Page : Home */
+    header.main-header .menu ul {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        background: #f0f0f0;
+        color: #000 !important;
+        width: 100% !important;
+        display: none;
+        z-index: 999;
+    }
+    header.main-header .navmenuresp {
+        display: block !important;
+    }
+    header.main-header .menu ul a {
+        color: #000 !important;
+        font-size: 16px;
+    }
+    header.main-header .menu ul li {
+        border-bottom: 1px solid black;
+        /* margin-top: 20px; */
+        width: 100%;
+        padding: 15px 0px 15px 30px;
+    }
+    header.main-header .menu ul .none-border {
+        border-bottom: none;
+    }
+    header.main-header .menu ul .none{
+        display: none;
+    }
+    header.main-header .hamburger {
+        display: block;
+    }
+    header.main-header .hamburger i {
+        color: #0274be;
+    }
+    .front-sec-content, .front-2 {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        height: inherit !important;
+        width: 80%;
+        margin: 30px 10%;
+    }
+    .front-3 {
+        display: flex;
+        flex-direction: column;
+        /* padding: 50px 20px; */
+    }
+    .front-3 .front-3-content-box-2 {
+        width: 80%;
+        padding: 0px 10%;
+    }
+    .front-sec-content h1, .front-2 h1, .front-3 h1, .front-4 h1, .front-5 h1 {
+        font-size: 2rem !important;
+    }
+    .front-sec-content p, .front-3 p, .front-2 p {
+        font-size: 16px !important;
+    }
+    .front-2 .front-2-content-box-2 img{
+        width: 80%;
+        margin-right: 80%;
+    }
+    .front-4-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .front-4 .front-4-row.front-4-row-1 .user-box {
+        width: 90%;
+    }
+    .front-5 .content {
+        width: 90%;
+        padding: 20px 5%;
+    }
+    .front-5 .counter .counter-count, .front-5 .countFirst {
+        font-size: 20px !important;
+    }
+    .front-5 .counter .counter-count h3 {
+        font-size: 14px !important;
+    }
+
+    /* Page : Terms & Conditions */
+    .terms .terms-content h1 {
+        font-size: 25px;
+    }
+    .terms .terms-content h2 {
+        font-size: 18px;
+    }
+
+    /* Page : Privacy Policy */
+    .privacy .privacy-content h1 {
+        font-size: 25px;
+    }
+    .privacy .privacy-content h2 {
+        font-size: 18px;
+    }
+
+    /* Page : FAQS */
+    .faqs .accordion .contentBox .label {
+        font-size: 15px;
+    }
+
+    /* Page : About Us */
+    .about h1, .about-2-replace h1, .about-4 h1, .about-3 h1 {
+        font-size: 2rem !important;
+    }
+    .about .about-content {
+        flex-direction: column;
+    }
+    .about-3 .about-3-content-box {
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about .about-content .about-content-box a {
+        margin-bottom: 50px !important;
+    }
+    .about .about-content .about-content-box img {
+        width: 80%;
+        margin: 30px 10%;
+        height: 80%;
+    }
+    .about-2-replace {
+        padding: 100px 0px;
+        text-align: center;
+    }
+    .about-2-replace .cutom-button-about-replace {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-4 ul {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .about-4 ul li {
+        margin-bottom: 30px;
+    }
+    .about-4 ul li a {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-3 {
+        flex-direction: column;
+    }
+
+    /* Page : Instructions */
+    .inst-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .instruction-6 .inst-overallrev {
+        flex-direction: column;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .instruction-6 .inst-overallrev h1 {
+        font-size: 80px;
+    }
+    .instruction-6 .inst-row-rev {
+        flex-direction: column !important;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .instruction-6 .inst-row-rev .ins-review {
+        width: 90% !important;
+        padding-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+    footer {
+        /* background: red; */
+        text-align: center;
+    }
+    .main-footer {
+        display: block;
+    }
+    .footer-last {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center Im !important;
+        text-align: center !important;
+    }
+    footer .footer-box {
+        margin: 20px 23%;
+    }
+}
